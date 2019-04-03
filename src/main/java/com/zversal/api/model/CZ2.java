@@ -1,7 +1,12 @@
 package com.zversal.api.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
-
+/**
+ * This class holds the details about CZ2 which is a member variable of class {@link CompanyInfoModel} and stored on MongoDB.
+ * 
+ * @author bhupinder
+ *
+ */
 @Document
 public class CZ2 {
 	

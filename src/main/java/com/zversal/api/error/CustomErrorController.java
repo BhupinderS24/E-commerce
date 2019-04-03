@@ -12,6 +12,11 @@ import org.springframework.web.context.request.WebRequest;
 
 import com.zversal.api.error.ErrorInfo;
 
+/**
+ * This class exposes the REST API for the system.
+ * @author bhupinder
+ *
+ */
 @RestController
 public class CustomErrorController implements ErrorController {
 

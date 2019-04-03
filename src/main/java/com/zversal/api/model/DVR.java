@@ -1,7 +1,12 @@
 package com.zversal.api.model;
 
 import org.springframework.data.mongodb.core.mapping.Field;
-
+/**
+ * This class holds the details about DVR which is a member variable of class {@link CompanyInfoModel} and stored on MongoDB.
+ * 
+ * @author bhupinder
+ *
+ */
 public class DVR {
 	private String ticker;
 	private String company;

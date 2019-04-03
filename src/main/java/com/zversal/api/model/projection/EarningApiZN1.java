@@ -1,7 +1,10 @@
 package com.zversal.api.model.projection;
 
+/**This interface is used to projecting out the required fields for Earning Api from {@link ZN1}
+ * @author bhupinder
+ *
+ */
 public interface EarningApiZN1 {
-	 String getTicker();
 
 	 String getCurrentQTREndDate();
 

@@ -1,6 +1,10 @@
 package com.zversal.api.model.projection;
 
- public interface EarningApiZ2B {
+/**This interface is used to projecting out the required fields for Earning Api from {@link Z2B}
+ * @author bhupinder
+ *
+ */
+public  interface EarningApiZ2B {
 	 String getKEY_1();
 
 	 String getKey2();

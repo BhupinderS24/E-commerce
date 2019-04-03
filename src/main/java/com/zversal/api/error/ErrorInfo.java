@@ -9,14 +9,12 @@ public class ErrorInfo {
 	private String error;
 	private String message;
 	private Date timeStamp;
-	private String trace;
 
 	public ErrorInfo(int status, Map<String, Object> errorAttributes) {
 		this.status = status;
 		error = (String) errorAttributes.get("error");
 		message = (String) errorAttributes.get("message");
 		timeStamp = (Date) errorAttributes.get("timestamp");
-		trace = (String) errorAttributes.get("trace");
 	}
 
 	public int getStatus() {
@@ -51,11 +49,4 @@ public class ErrorInfo {
 		this.timeStamp = timeStamp;
 	}
 
-	public String getTrace() {
-		return trace;
-	}
-
-	public void setTrace(String trace) {
-		this.trace = trace;
-	}
 }

@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 /**
  * This class holds the details that will be stored about Company on MongoDB.
  * 
- * @author dinuka
+ * @author bhupinder
  *
  */
 @Document(collection = "newCollection")

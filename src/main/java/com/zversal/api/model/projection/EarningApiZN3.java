@@ -1,7 +1,9 @@
 package com.zversal.api.model.projection;
-
+/**This interface is used to projecting out the required fields for Earning Api from {@link ZN3}
+ * @author bhupinder
+ *
+ */
 public interface EarningApiZN3 {
-	 String getTicker();
 
 	 String getCompany();
 

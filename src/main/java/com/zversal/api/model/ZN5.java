@@ -1,5 +1,10 @@
 package com.zversal.api.model;
-
+/**
+ * This class holds the details about ZN5 which is a member variable of class {@link CompanyInfoModel} and stored on MongoDB.
+ * 
+ * @author bhupinder
+ *
+ */
 public class ZN5 {
 	//ZN5
 	private String ticker;

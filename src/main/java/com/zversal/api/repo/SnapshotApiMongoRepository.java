@@ -6,19 +6,22 @@ import org.springframework.stereotype.Repository;
 import com.zversal.api.model.CompanyInfoModel;
 import com.zversal.api.model.projection.SnapshotApi;
 /**
- *This interface extends Mongo specific Repository interface,specifying the domain type as ComapnyInfoModel and the id type as String
- *annotation Repository Indicates that class is a "Repository", originally defined by Domain-Driven Design (Evans, 2003) as "a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects"
+ *This interface extends Mongo specific Repository interface,specifying the domain type as ComapnyInfoModel and the id type as String 
  * @author Bhupinder
  *
+ *@Repository Indicates that class is a "Repository", originally defined by Domain-Driven Design (Evans, 2003) as "a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects"
  */ 
 @Repository
 public interface SnapshotApiMongoRepository extends MongoRepository<CompanyInfoModel,String>{
 	
 	/**
-	 *this method find the document which contains the ticker specified in parameter
-	 * @param ticker of type String is excpected by this method
-	 * @return the entity of type EarningApi
-	 *  
-	 */
+     * This method will retrieve the CompanyInfoModel details pertaining to
+     * the ticker passed in.
+     * 
+     * @param ticker the unique id of the Document to search and retrieve.
+     *            
+     * @return an instance of {@link CompanyInfoModel} but only field with specified in {@link SnapshotApi} Interface .
+     *       
+     */
 SnapshotApi findByTicker(String ticker);	
 }

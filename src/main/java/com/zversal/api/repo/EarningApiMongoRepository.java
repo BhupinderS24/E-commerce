@@ -22,7 +22,7 @@ public interface EarningApiMongoRepository extends MongoRepository<CompanyInfoMo
      * 
      * @param ticker the unique id of the Document to search and retrieve.
      *            
-     * @return an instance of {@link CompanyInfoModel} but only field with specified in Earning Api Interface .
+     * @return an instance of {@link CompanyInfoModel} but only field with specified in {@link Earning Api} Interface .
      *       
      */
 	EarningApi findByTicker(String ticker);
