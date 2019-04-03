@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.example.demo"},{"l":"com.zversal.api"},{"l":"com.zversal.api.Controller"},{"l":"com.zversal.api.error"},{"l":"com.zversal.api.model"},{"l":"com.zversal.api.model.projection"},{"l":"com.zversal.api.repo"}]

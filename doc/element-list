@@ -1,0 +1,7 @@
+com.example.demo
+com.zversal.api
+com.zversal.api.Controller
+com.zversal.api.error
+com.zversal.api.model
+com.zversal.api.model.projection
+com.zversal.api.repo
